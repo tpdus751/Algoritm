@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-03-08T02:24:57.701Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="zqTCkVoEh6r2IMCy-p43" version="24.0.2" type="device">
+  <diagram name="페이지-1" id="dJkqbnC2gjaScekhFWax">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6iWU5rfKomif1DxLbugq-1" value="input change" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6iWU5rfKomif1DxLbugq-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.5" y="100" as="sourcePoint" />
+            <mxPoint x="184.5" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iWU5rfKomif1DxLbugq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6iWU5rfKomif1DxLbugq-4" target="6iWU5rfKomif1DxLbugq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6iWU5rfKomif1DxLbugq-4" value="num_500 = change // 500" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6iWU5rfKomif1DxLbugq-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.5" y="210" as="sourcePoint" />
+            <mxPoint x="184.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iWU5rfKomif1DxLbugq-7" value="num_100 = (change - (num_500 * 500)) / 100" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6iWU5rfKomif1DxLbugq-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.5" y="320" as="sourcePoint" />
+            <mxPoint x="184.5" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iWU5rfKomif1DxLbugq-10" value="output num_500, num_100" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
